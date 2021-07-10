@@ -1,0 +1,7 @@
+{
+    "instantmarkdown.debounce": 10,
+    "markdown.trace": "verbose",
+    "markdown.preview.typographer": true,
+    "markdown.preview.lineHeight": 10,
+    "markdown.preview.breaks": true
+}

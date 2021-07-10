@@ -6,6 +6,8 @@ public class ThreeNums_1388 {
     }
 
     public int maxSizeSlices(int[] nums) {
+
+
         int[][][] dp = new int[nums.length / 3 + 1][nums.length][4];
         for (int i = 1; i <= nums.length / 3; i++) {
             int a = 0;
