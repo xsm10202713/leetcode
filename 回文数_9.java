@@ -1,4 +1,9 @@
-/*
+/**
+ * 回文数_9
+ */
+public class 回文数_9 {
+
+    /*
  * @lc app=leetcode.cn id=9 lang=java
  *
  * [9] 回文数
@@ -71,8 +76,9 @@ class Solution {
         }
         long a=0;
         int y=x;
-        while(x>0){
-            a=a*10+x%10;
+        while(y>0){
+            a=a*10+y%10;
+            y=y/10;
         }
         return a==x;
 
@@ -80,3 +86,5 @@ class Solution {
 }
 // @lc code=end
 
+
+}
